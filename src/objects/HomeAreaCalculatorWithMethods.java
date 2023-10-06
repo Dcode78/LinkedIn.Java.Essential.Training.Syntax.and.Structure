@@ -12,7 +12,7 @@ public class HomeAreaCalculatorWithMethods {
         Rectangle bathroom = getRoom();
 
         double area = calculateTotalFloorArea(kitchen, bathroom);
-        System.out.println("Total area " + area);
+        System.out.println("Total area  : " + area);
         scanner.close();
         }
 
@@ -21,10 +21,10 @@ public class HomeAreaCalculatorWithMethods {
     }
 
     public static Rectangle getRoom(){
-        System.out.print("Enter the length of your room:");
+        System.out.print("Enter the length of your room : ");
         double length = scanner.nextDouble();
 
-        System.out.print("Enter the width of your room:");
+        System.out.print("Enter the width of your room  : ");
         double width = scanner.nextDouble();
 
         return new Rectangle(length, width);
